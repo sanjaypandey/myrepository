@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="GCInfo.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="0" topLine="13" />
+	</File>
+	<File name="GCPtr.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="3058" topLine="115" />
+	</File>
+	<File name="Iter.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="795" topLine="49" />
+	</File>
+	<File name="main.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="443" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

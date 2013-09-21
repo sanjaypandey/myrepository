@@ -1,0 +1,1 @@
+-> € ü hi this is simple UTF-8 demo

@@ -1,0 +1,97 @@
+# depslib dependency file v1.0
+1376754046 source:d:\my\dev-cpp\src\practice\c++_projects\thread_based_logger\main.cpp
+	"Log.h"
+	"MainThreadProgramm.h"
+
+1376754099 source:d:\my\dev-cpp\src\practice\c++_projects\thread_based_logger\mainthreadprogramm.cpp
+	"MainThreadProgramm.h"
+
+1376611596 d:\my\dev-cpp\src\practice\c++_projects\thread_based_logger\requests_queue.h
+	"Constants.h"
+
+1376705538 d:\my\dev-cpp\src\practice\c++_projects\thread_based_logger\constants.h
+	<iostream>
+	<sstream>
+	<vector>
+	<map>
+	<stack>
+	<set>
+	<algorithm>
+	<cstdio>
+	<climits>
+	<string>
+	<cstring>
+	<pthread.h>
+	<stdlib.h>
+	<io.h>
+	<assert.h>
+	<sys/types.h>
+	<unistd.h>
+	<fstream>
+	<sstream>
+	<unistd.h>
+	<fcntl.h>
+	<sys/time.h>
+	<sys/types.h>
+	<sys/stat.h>
+
+1368311599 d:\my\dev-cpp\src\practice\c++_projects\thread_based_logger\handler_thread.h
+
+1368311705 d:\my\dev-cpp\src\practice\c++_projects\thread_based_logger\handler_threads_pool.h
+	"requests_queue.h"
+	"handler_thread.h"
+
+1376626918 source:d:\my\dev-cpp\src\practice\c++_projects\thread_based_logger\handler_thread.cpp
+	"Constants.h"
+	"requests_queue.h"
+	"handler_thread.h"
+
+1376611634 source:d:\my\dev-cpp\src\practice\c++_projects\thread_based_logger\handler_threads_pool.cpp
+	"Constants.h"
+	"handler_threads_pool.h"
+
+1376640963 d:\my\dev-cpp\src\practice\c++_projects\thread_based_logger\atomicincrement.h
+	<unistd.h>
+
+1376611647 source:d:\my\dev-cpp\src\practice\c++_projects\thread_based_logger\requests_queue.cpp
+	"Constants.h"
+	"requests_queue.h"
+
+1376670664 source:d:\my\dev-cpp\src\practice\c++_projects\thread_based_logger\muteximplementation.cpp
+	"MutexImplementation.h"
+
+1376670261 d:\my\dev-cpp\src\practice\c++_projects\thread_based_logger\muteximplementation.h
+	"Constants.h"
+
+1376640892 source:d:\my\dev-cpp\src\practice\c++_projects\thread_based_logger\atomicincrement.cpp
+	"AtomicIncrement.h"
+
+1376679085 source:d:\my\dev-cpp\src\practice\c++_projects\thread_based_logger\mutex.cpp
+	"Mutex.h"
+	"MutexImplementation.h"
+
+1376670203 d:\my\dev-cpp\src\practice\c++_projects\thread_based_logger\mutex.h
+	"Constants.h"
+
+1376680708 source:d:\my\dev-cpp\src\practice\c++_projects\thread_based_logger\log.cpp
+
+1376678899 d:\my\dev-cpp\src\practice\c++_projects\thread_based_logger\log.cpp
+	"Constants.h"
+	"Mutex.h"
+	"AtomicIncrement.h"
+
+1376785079 d:\my\dev-cpp\src\practice\c++_projects\thread_based_logger\log.h
+	"Constants.h"
+	"Mutex.h"
+	"AtomicIncrement.h"
+	"Loggers.h"
+
+1376786928 d:\my\dev-cpp\src\practice\c++_projects\thread_based_logger\loggers.h
+	"Constants.h"
+
+1376754090 d:\my\dev-cpp\src\practice\c++_projects\thread_based_logger\mainthreadprogramm.h
+	"Constants.h"
+	"requests_queue.h"
+	"handler_thread.h"
+	"handler_threads_pool.h"
+

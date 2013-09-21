@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="AtomicIncrement.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="849" topLine="0" />
+	</File>
+	<File name="AtomicIncrement.h" open="0" top="0" tabpos="0">
+		<Cursor position="99" topLine="0" />
+	</File>
+	<File name="Log.h" open="1" top="0" tabpos="2">
+		<Cursor position="2222" topLine="76" />
+	</File>
+	<File name="Loggers.h" open="1" top="0" tabpos="3">
+		<Cursor position="375" topLine="0" />
+	</File>
+	<File name="MainThreadProgramm.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="198" topLine="12" />
+	</File>
+	<File name="MainThreadProgramm.h" open="1" top="1" tabpos="5">
+		<Cursor position="212" topLine="0" />
+	</File>
+	<File name="Mutex.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="107" topLine="0" />
+	</File>
+	<File name="Mutex.h" open="0" top="0" tabpos="4">
+		<Cursor position="2747" topLine="117" />
+	</File>
+	<File name="MutexImplementation.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="638" topLine="19" />
+	</File>
+	<File name="MutexImplementation.h" open="0" top="0" tabpos="2">
+		<Cursor position="286" topLine="0" />
+	</File>
+	<File name="handler_threads_pool.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="4230" topLine="13" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="1460" topLine="35" />
+	</File>
+	<File name="requests_queue.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="5629" topLine="131" />
+	</File>
+</CodeBlocks_layout_file>
