@@ -1,0 +1,41 @@
+Bob is a wannabe hacker who wants to pick up some skills from veteran Joe. As an assignment Joe wants to pass on a list of ip addresses(v4) to Bob. Bob is expected to target them. To make things a little interesting for Bob, Joe decides to play a trick. He embeds his ip addresses within two files containing a long random sequence of digits and dots(period). He also ensures that the intersection of all valid ip addresses in file A & file B yields the list that he wants to pass on to Bob. Bob, being a novice, needs a little help here. Would you be able to decode the two files and generate Joe's list for Bob?
+
+ 
+
+Implementation notes:
+
+    Each stream consists of a sequence on digits '0'-'9' punctuated by '.'. Can be assumed that no other characters will be present.
+    Some notes about ip addresses:
+
+    In this case, ip addresses are class-less. 
+    Multicast and other reserved addresses are also considered valid.
+    The first or fourth octet should not be zeroes.
+    If an octet is prefixed with '0', the presence of '0' can be ignored. For example, 1.2.3.4, 1.2.03.4, 1.2.003.4 are all equivalent. However, this rule does not extend beyond a sequence of 3 digits. For example, 1.2.0003.4 is an invalid combination.
+
+Implementation constraints:
+
+    Solution should not use more than 1GB of RAM. Spilling over to file-system(like temp files etc.) is not allowed either.
+    Do not use multiple execution units(cpu cores) through any means(forking, pthreads etc.)
+    Code should be in C using standard C libraries.
+
+Ranking criteria:
+
+    Attain maximum cpu efficiency within 1GB of memory constraint.
+    Handling boundary cases.
+    Scope for handling a large intersection set – can reach a maximum of 4 billion.
+    Time taken to arrive at a functionally correct solution.
+    Ability to iterate fast to improve speed/efficiency.
+
+Sample Input
+
+Stream 1:  1.0.0.123.45.12.223.12445.199.239.399.1245.32522..1234
+
+Stream 2:  34.245.12.3455.11.0.0.14685.199.239.3346.83.0.12.0.1
+
+ 
+
+Sample Output
+
+1.0.0.1
+
+5.199.239.3

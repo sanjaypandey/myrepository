@@ -1,0 +1,7 @@
+1. I was started with the parsing of the file.
+2. For each character I just traversing the file and putting the formate (like a.b.c.d from the parseFileDataStream() ) as I mention in the form of a.b.c.d string to the generateComb() function which will creat the different combination of the IP addresses.
+3. On the basis of b.c string's hash function (getting by the strToInt() function) I am putting the all generated
+   comination on the incresing sorted order on the list of that particular hash value.
+4. I am dooing the same thing for the different stream also.
+5. Finally  through getIntersection() function which is taking the two different hash's I'm just traversing and 
+  finding the common IP addresses from that structure.  
